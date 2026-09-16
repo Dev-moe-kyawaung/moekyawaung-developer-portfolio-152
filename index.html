@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moe Kyaw Aung — Senior Full-Stack Engineer · AI-Enabled SaaS</title>
+    <meta name="description" content="Moe Kyaw Aung is a senior full-stack engineer building AI-enabled SaaS products from discovery to scale. Next.js, TypeScript, data modeling, security, observability." />
+    <link rel="canonical" href="https://moekyawaung.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://moekyawaung.dev/" />
+    <meta property="og:title" content="Moe Kyaw Aung — Senior Full-Stack Engineer · AI-Enabled SaaS" />
+    <meta property="og:description" content="From ambiguous requirements to shipping AI-enabled SaaS that scales — discover, design, build, scale." />
+    <meta property="og:image" content="https://moekyawaung.dev/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Moe Kyaw Aung — Senior Full-Stack Engineer" />
+    <meta name="twitter:description" content="AI-enabled SaaS, built end to end." />
+    <meta name="twitter:image" content="https://moekyawaung.dev/og.jpg" />
+
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0e13" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#eef1f6" />
+    <script>
+      try {
+        var t = localStorage.getItem("mk-theme");
+        if (t === "light") {
+          document.documentElement.classList.add("light");
+        } else if (!t && matchMedia("(prefers-color-scheme: light)").matches) {
+          document.documentElement.classList.add("light");
+        }
+      } catch (e) {}
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Moe Kyaw Aung",
+        "jobTitle": "Senior Full-Stack Engineer",
+        "url": "https://moekyawaung.dev",
+        "image": "https://moekyawaung.dev/og.jpg",
+        "email": "mailto:hello@moekyawaung.dev",
+        "address": { "@type": "PostalAddress", "addressLocality": "Yangon", "addressCountry": "MM" },
+        "sameAs": [
+          "https://github.com/moekyawaung",
+          "https://www.linkedin.com/in/moekyawaung"
+        ],
+        "knowsAbout": [
+          "Next.js", "TypeScript", "React", "AI", "LLM pipelines",
+          "SaaS architecture", "Data modeling", "Observability", "Web performance"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
